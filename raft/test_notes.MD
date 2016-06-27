@@ -3,18 +3,15 @@
 ## Overall test process
 
 1 set up 5 server raft instance and proxy
-2 set up 2 test drivers
-3 set up driver to kill two servers while 2 running
-4 end 
-5 verify that queue information can be retireved
-6 verify all queue fucntions
-7 kill 3rd server
-8 verify queue does not work
+2 set up 1 test drivers - run test.py
+3 kill 2 servers (manually)
+4 verify that queue information can be retireved
+5 verify all queue functions - run test.py
+6 kill 3rd server
+7 verify queue does not work - run test.py
 
 ## These are the test files
-queue_test.py -- sets up the queue handlers and uses them to test the queue
-queue_unit.py -- tests that one queue works
-queue.py -- sets up a queue handler with a target server 
+test.py -- tests that one queue drver works
 
 ## API for queue
 
