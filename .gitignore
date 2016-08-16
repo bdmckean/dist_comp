@@ -1,2 +1,7 @@
 .DS_Store
 *zip
+project/*
+spark/5*/*
+spark/2*/*
+spark/10*/*
+
